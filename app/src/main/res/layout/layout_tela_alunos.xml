@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.unitins.projetoacademia.TelaAlunos">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/lista"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true" />
+
+
+        <Button
+            android:id="@+id/TelaAlunoBotaoCadastrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Novo aluno"
+            android:layout_gravity="center_vertical"/>
+
+        <Button
+            android:id="@+id/TelaAlunoBotaoAlterar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alterar"
+            android:layout_gravity="center"/>
+
+
+        <Button
+            android:id="@+id/TelaAlunoBotaoRemover"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remover"
+            android:layout_gravity="center|end"/>
+
+
+    </FrameLayout>
+
+
+
+
+
+
+
+</android.support.v7.widget.LinearLayoutCompat>

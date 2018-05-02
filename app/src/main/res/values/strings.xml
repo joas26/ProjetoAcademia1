@@ -1,0 +1,16 @@
+<resources>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="app_name">AppAcademia</string>
+    <string name="login">Login</string>
+    <string name="senha">Password</string>
+    <string name="Entrar">Entrar</string>
+    <string name="configura">Configura</string>
+    <string name="sair">Sair</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Aluno_button">Aluno Button</string>
+
+
+</resources>

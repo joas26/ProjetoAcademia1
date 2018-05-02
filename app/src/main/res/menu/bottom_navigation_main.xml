@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+
+        android:id="@+id/action_Alunos"
+        android:enabled="true"
+        android:icon="@drawable/ic_alunos"
+        android:title="Alunos"
+        app:showAsAction="ifRoom"/>
+
+    <item
+
+        android:id="@+id/action_Inicio"
+        android:enabled="true"
+        android:icon="@drawable/ic_inicio"
+        android:title="Perfil"
+        app:showAsAction="ifRoom"/>
+
+
+    <item
+
+        android:id="@+id/action_Sair"
+        android:enabled="true"
+        android:icon="@drawable/ic_sair"
+        android:title="Sair"
+        app:showAsAction="ifRoom"/>
+
+
+
+</menu>

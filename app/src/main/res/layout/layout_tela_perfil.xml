@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.unitins.projetoacademia.TelaPerfil">
+
+
+    <QuickContactBadge
+        android:id="@+id/quickContactBadge2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="53dp"
+        app:srcCompat="@mipmap/ic_fotoperfil_round" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/quickContactBadge2"
+        android:layout_marginStart="43dp"
+        android:layout_toEndOf="@+id/quickContactBadge2"
+        android:text="ACADEMIA X" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView8"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="43dp"
+        android:text="CNPJ" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_below="@+id/textView9"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="2018.46522.0001-27" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText8"
+        android:layout_below="@+id/editText8"
+        android:layout_marginTop="13dp"
+        android:text="Endereço" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView10"
+        android:layout_below="@+id/textView10"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="104 SUL R 4 LT 20" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText9"
+        android:layout_below="@+id/editText9"
+        android:layout_marginTop="18dp"
+        android:text="Telefone"
+        />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_below="@+id/textView11"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="(63) 3215-9595" />
+
+    <Button
+        android:id="@+id/TelaPerfilBotaoVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText10"
+        android:layout_below="@+id/editText10"
+        android:layout_marginTop="26dp"
+        android:text="Voltar" />
+
+    <Button
+        android:id="@+id/TelaPerfilBotaoSalvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText10"
+        android:layout_alignTop="@+id/TelaPerfilBotaoVoltar"
+        android:text="Salvar" />
+</android.widget.RelativeLayout>
